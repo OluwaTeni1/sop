@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
 :root {
     --white: rgba(255, 255, 255, 1);
     --sophiverse-black500: rgba(0, 0, 0, 1);
@@ -21,7 +23,7 @@
     --blue-shadow: 0px 5px 19.299999237060547px 0px rgba(204, 243, 255, 1);
 }
 * {
-    font-family: "Neometric-Regular", Helvetica;
+    font-family: 'Lato', sans-serif;
     
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -112,7 +114,7 @@ a.active::after{
     text-align: center;
     padding: 4px 5px;
     color: var(--sophiverse-black700);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /*--------top-section-end------------*/
@@ -223,16 +225,20 @@ section.about{
     font-size: 30px;
     padding: 8px;
     color: var(--sophiverse-purple300);
+    font-family: 'Lato', sans-serif;
 }
 .about-p1-head{
     font-size: 3.5rem;
     padding: 10px;
     color: var(--sophiverse-purple800);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
 }
 .about-top {
     font-size: 30px;
     padding: 8px;
     font-weight: 500;
+    font-family: 'Lato', sans-serif;
 }
 .about-p1{
     font-size: 16px;
@@ -357,14 +363,14 @@ section.services{
 
 .services-head h3{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 700;
     padding: 10px;
 }
 
 .services-head p{
     font-size: 1.25rem;
     padding: 10px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .services-scroll {
@@ -488,29 +494,32 @@ section.services{
     position: absolute;
     top: 45%;
     padding: 25px;
-    
+    font-family: 'Lato', sans-serif;
 }
 .overlay-text-1 .p-head{
     font-size: 30px;
     font-weight: 500;
     padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
 }
 .overlay-text-1 p.p-body {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.5rem;
+    font-family: 'Lato', sans-serif;
 }
 .overlay-text {
     position: absolute;
     top: 73%;
     padding: 25px;
-
+    font-family: 'Lato', sans-serif;
 }
 
 .overlay-text .p-head {
     font-size: 27px;
     font-weight: 500;
     padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 @media(max-width:464px){
@@ -520,7 +529,7 @@ section.services{
         }
 .services-head h3 {
         font-size: 2rem;
-        font-weight: 500;
+        font-weight: 600;
         padding: 1px;
         margin-bottom: 15px;
     }
@@ -528,7 +537,7 @@ section.services{
     .services-head p {
         font-size: .95rem;
         padding: 1px;
-        font-weight: 300;
+        font-weight: 400;
         margin-bottom: 15px;
     }
 
@@ -628,32 +637,35 @@ section.services{
         position: absolute;
         top: 35%;
         padding: 10px;
-
+        font-family: 'Lato', sans-serif;
     }
 
     .overlay-text-1 .p-head {
         font-size: 20px;
         font-weight: 500;
         padding-bottom: 4px;
+        font-family: 'Lato', sans-serif;
     }
 
     .overlay-text-1 p.p-body {
         font-size: 6px;
         font-weight: 300;
         line-height: 0.95rem;
+        font-family: 'Lato', sans-serif;
     }
 
     .overlay-text {
         position: absolute;
         top: 50%;
         padding: 25px;
-
+        font-family: 'Lato', sans-serif;
     }
 
     .overlay-text .p-head {
         font-size: 14px;
         font-weight: 500;
         padding-bottom: 5px;
+        font-family: 'Lato', sans-serif;
     }
 }
 /*---------services-end---------------*/
@@ -671,14 +683,14 @@ section.products{
 }
 .product-head h3{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 700;
     padding: 10px;
 }
 
 .product-head p {
     font-size: 1.185rem;
     padding: 10px;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 1.5rem;
     color: var(--sophiverse-black600);
 }
@@ -786,13 +798,13 @@ section.products{
 
 .contact-head h3{
     font-size: 2.5rem;
-    font-size: 500;
+    font-weight: 700;
     padding: 10px;
 }
 .contact-head p{
     font-size: 1.185rem;
     padding: 10px;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 1.5rem;
     color: var(--sophiverse-black600);
 }
@@ -870,7 +882,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
     height: 60px;
     font-size: 1.025rem;
     color: var(--sophiverse-black700);
-    font-weight: 200;
+    font-weight: 300;
     border-radius: 5px;
 }
 textarea{
@@ -878,7 +890,7 @@ textarea{
     border: 1px solid var(--sophiverse-black700);
     font-size: 1.025rem;
     color: var(--sophiverse-black700);
-    font-weight: 200;
+    font-weight: 300;
     border-radius: 5px;
 }
 
@@ -1009,8 +1021,7 @@ input[type="submit"]:hover{
 .launch-content p{
     font-size: 1.025rem;
     padding: 20px;
-    font-family: "Neometric-Regular",
-        Helvetica;
+    font-family: 'Lato', sans-serif;
     color: var(--sophiverse-black700);
     line-height: 25x;
     text-align: center;
@@ -1031,8 +1042,7 @@ input[type="submit"]:hover{
         .launch-content p {
             font-size: 0.895rem;
             padding: 20px;
-            font-family: "Neometric-Regular",
-                Helvetica;
+            font-family: 'Lato', sans-serif;
             font-weight: 300;
             color: var(--sophiverse-black700);
             line-height: 25x;
