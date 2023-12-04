@@ -147,8 +147,8 @@ section.section-2{
 
 section.about{
     background: linear-gradient(180deg, rgb(241, 229, 255) 0%, rgba(241, 229, 255, 0) 100%);
-    border-top-right-radius: 10rem;
-    border-top-left-radius: 10rem;
+    border-top-right-radius: 3.5rem;
+    border-top-left-radius: 3.5rem;
     height: auto;
     width: 100%;
 }
@@ -175,14 +175,14 @@ section.about{
 }
 .about-col-box-1{
     width: 100%;
-    padding: 25px 50px;
+    padding: 15px 20px;
     height: 360px;
     box-sizing: border-box;
     
 }
 .about-col-box-2{
     width: 100%;
-    padding: 25px 50px;
+    padding: 15px 20px;
     height: 100%;
     border-radius: 2.5rem;
     box-sizing: border-box;
@@ -190,7 +190,7 @@ section.about{
 }
 .about-col-box-3 {
     width: 100%;
-    padding: 25px 50px;
+    padding: 15px 20px;
     height: 100%;
     border-radius: 2.5rem;
     box-sizing: border-box;
@@ -198,7 +198,7 @@ section.about{
 }
 .about-col-box-4 {
     width: 100%;
-    padding: 25px 50px;
+    padding: 15px 20px;
     height: 100%;
     border-radius: 2.5rem;
     box-sizing: border-box;
@@ -207,7 +207,7 @@ section.about{
 
 .about-col-box-5 {
     width: 100%;
-    padding: 25px 50px;
+    padding: 15px 20px;
     height: 100%;
     border-radius: 2.5rem;
     box-sizing: border-box;
@@ -215,7 +215,7 @@ section.about{
 }
 .about-col-box-6 {
     width: 100%;
-    padding: 25px 50px;
+    padding: 15px 20px;
     height: 100%;
     border-radius: 2.5rem;
     box-sizing: border-box;
@@ -1014,13 +1014,13 @@ input[type="submit"]:hover{
 }
 .launch-content h3{
     font-size: 2rem;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     font-weight: 400;
 }
 .launch-content p{
     font-size: 1.025rem;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Lato', sans-serif;
     color: var(--sophiverse-black700);
     line-height: 25x;
@@ -1034,14 +1034,14 @@ input[type="submit"]:hover{
         }
         .launch-content h3 {
             font-size: 1.75rem;
-            padding: 20px;
+            padding: 5px;
             text-align: center;
             font-weight: 400;
         }
     
         .launch-content p {
             font-size: 0.895rem;
-            padding: 20px;
+            padding: 10px;
             font-family: 'Lato', sans-serif;
             font-weight: 300;
             color: var(--sophiverse-black700);
