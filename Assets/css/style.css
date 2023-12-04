@@ -904,6 +904,7 @@ input[type="submit"]{
     color: #fff;
     border-radius: 5px;
     font-size: 1.025rem;
+    border: none;
     cursor: pointer;
     transition: all 0.3s ease-in;
 }
