@@ -256,6 +256,13 @@ section.about{
 }
 
 @media(max-width:464px){
+    section.about {
+            background: linear-gradient(180deg, rgb(241, 229, 255) 0%, rgba(241, 229, 255, 0) 100%);
+            border-top-right-radius: 2.5rem;
+            border-top-left-radius: 2.5rem;
+            height: auto;
+            width: 100%;
+        }
     .about-col-box-1 {
             width: 100%;
             padding: 5px 20px;
@@ -408,7 +415,33 @@ section.services{
     height: 500px;
     object-fit: cover;
 }
+.services-horizontal-slide .slide-button {
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    background: #000;
+    border: none;
+    outline: none;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
 
+.services-horizontal-slide .slide-button:hover {
+    background: #444;
+}
+
+.services-horizontal-slide .slide-button#prev-slide {
+    left: -40px;
+    display: none;
+}
+
+.services-horizontal-slide .slide-button#next-slide {
+    right: -20px;
+}
 .service-item-1 .overlay {
     width: 600px;
     height: 452px;
@@ -666,7 +699,7 @@ section.products{
     cursor: pointer;
 }
 .product-row .product-col:hover {
-    background: var(--sophi-pink50);
+    background: linear-gradient(to right, rgba(125, 225, 255, 0.35), rgba(0, 72, 94, 0.206));
     
 }
 
@@ -712,6 +745,9 @@ section.products{
 }
 
 @media(max-width:464px){
+    .product-container {
+        padding: 2px 8px;
+    }
     .product-head h3 {
             font-size: 2rem;
             font-weight: 500;
@@ -722,6 +758,22 @@ section.products{
             font-size: 1.05rem;
             padding: 1px;
             font-weight: 300;
+        }
+        .product-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
+            gap: 15px;
+            width: 100%;
+            padding: 5px;
+        }
+    
+        .product-row .product-col {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 1.5rem 2rem;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.116);
+            transition: 0.3s all linear;
+            cursor: pointer;
         }
 }
 /*------------products-end--------------*/
@@ -962,6 +1014,30 @@ input[type="submit"]:hover{
     color: var(--sophiverse-black700);
     line-height: 25x;
     text-align: center;
+}
+@media(max-width:464px){
+    .launch-content {
+            padding: 5px 10px;
+            align-items: center;
+            justify-content: center;
+        }
+        .launch-content h3 {
+            font-size: 1.75rem;
+            padding: 20px;
+            text-align: center;
+            font-weight: 400;
+        }
+    
+        .launch-content p {
+            font-size: 0.895rem;
+            padding: 20px;
+            font-family: "Neometric-Regular",
+                Helvetica;
+            font-weight: 300;
+            color: var(--sophiverse-black700);
+            line-height: 25x;
+            text-align: center;
+        }
 }
 /*-------------prelaunch-end-------------*/
 
