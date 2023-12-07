@@ -242,7 +242,7 @@ section.about{
 }
 .about-col-box-1{
     width: 100%;
-    padding: 25px 50px;
+    padding: 15px 20px;
     height: 360px;
     box-sizing: border-box;
     
@@ -972,6 +972,7 @@ input[type="submit"]{
     border-radius: 5px;
     border: none;
     font-size: 1.025rem;
+    border: none;
     cursor: pointer;
     transition: all 0.3s ease-in;
 }
